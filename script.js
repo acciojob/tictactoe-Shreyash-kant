@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const player1 = document.querySelector("#p1");
-const player2 = document.querySelector("#p2");
+const player1 = document.querySelector("#payer-1");
+const player2 = document.querySelector("#player-2");
 const startButton = document.querySelector("#submit");
 const starter = document.querySelector(".starter");
 const message = document.querySelector(".message");
