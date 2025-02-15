@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html,body{
+	height:100%;
+	width:100%;
+	text-align:center;
+}
+.starter{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	gap:1rem;
+	/* border:1px solid black; */
+}
+.starter > button{
+	background-color:white;
+	padding:1rem;
+	/* text-align:center; */
+	width:30%;
+	border-radius:1rem;
+}
+.starter  input{
+	padding:0.3rem;
+}
+.grid-container{
+	width:300px;
+	height:300px;
+	display:none;
+	grid-template-rows:repeat(3,100px);
+	grid-template-columns:repeat(3,100px);
+	/* border:1px solid black; */
+	margin:1rem auto;
+}
+
+.grid-item{
+	background-color:rgb(255,192,203);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:1rem;
+	cursor:pointer;
+	border:1px solid black;
+}
